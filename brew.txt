@@ -3,4 +3,3 @@ python
 python3
 wget
 vim
-brew-cask

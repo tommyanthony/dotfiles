@@ -18,6 +18,10 @@ commandFromFile () {
 }
 
 commandFromFile "brew.txt" "brew"
+
+# Requirements for brew cast to work
+brew tap caskroom/cask
+brew install caskroom/cask/brew-cask
 commandFromFile "brew-cask.txt" "brew cask"
 
 # Set faster keyboard repetition
