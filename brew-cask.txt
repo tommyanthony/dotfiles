@@ -1,0 +1,9 @@
+google-chrome
+firefox
+iterm2
+macvim
+spotify
+spectacle
+the-unarchiver
+flux
+sublime-text

@@ -1,0 +1,29 @@
+"Shutnik/jshint2.vim' Configuration file for vim
+set modelines=0         " CVE-2007-2438
+set backspace=2         " more powerful backspacing
+" Normally we use vim-extensions. If you want true vi-compatibility
+" remove change the following statements
+set nocompatible        " Use Vim defaults instead of 100% vi compatibility
+filetype off
+syntax on
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'wookiehangover/jshint.vim'
+
+call vundle#end()
+
+filetype on                   " try to detect filetypes
+set number                    " Display line numbers
+set title                     " show title in console title bar
+set wildmenu                  " Menu completion in command mode on <Tab>
+set wildmode=full             " <Tab> cycles between all matching choices.
+
+let g:syntastic_python_checkers = ['pylint']
+color delek

@@ -1,0 +1,8 @@
+gpip(){
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+export PYTHONSTARTUP="$HOME/.pythonrc"
+
+alias ..='cd ..'
+alias ...='cd ../..'
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
