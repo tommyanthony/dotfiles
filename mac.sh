@@ -34,3 +34,6 @@ defaults write -g com.apple.mouse.scaling -int 2.5
 # Privacy modifications
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+
+# Install pylint
+pip install pylint
