@@ -1,3 +1,3 @@
-All my dotfiles for when I set up my VIM and bash environment on a new machine.
+All my dotfiles for when I set up VIM and bash on a new machine.
 
-Has a script to ease the setting up of new Mac's.
+mac.sh installs software and packages via homebrew for the Mac OS X operating system, where as initialize.sh is applicable to all UNIX machines
