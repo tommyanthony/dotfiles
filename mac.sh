@@ -29,7 +29,7 @@ defaults write NSGlobalDomain KeyRepeat -int 2
 
 # Set faster mouse and trackpad movement
 defaults write -g com.apple.trackpad.scaling -int 1.5
-defaults write -g com.apple.mouse.scaling -int 2.5
+defaults write -g com.apple.mouse.scaling -int 1.5
 
 # Privacy modifications
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
