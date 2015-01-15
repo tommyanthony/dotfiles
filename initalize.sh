@@ -1,6 +1,8 @@
 directory=`pwd`
 for next in `ls home/`
 do
-    echo "ln -s $directory/home/$next $HOME/.$next"
+    command="ln -s $directory/home/$next $HOME/.$next"
+    echo $command
+    eval $command
 done
 exit 0  
