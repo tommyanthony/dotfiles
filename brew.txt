@@ -4,3 +4,4 @@ python3
 wget
 vim
 tree
+node
