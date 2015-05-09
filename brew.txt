@@ -5,3 +5,4 @@ wget
 vim
 tree
 node
+mercurial
