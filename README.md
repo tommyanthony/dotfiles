@@ -10,4 +10,8 @@ To set up Linux:
 
 To set up Mac:
 ./initalize.sh
+cd mac/
 ./mac.sh
+
+TODO:
+Doesn't automatically install pylint on Linux.
