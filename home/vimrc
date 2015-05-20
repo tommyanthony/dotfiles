@@ -13,9 +13,22 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+" Have associated let and set statements for a plugin directly after the plugin
+" is initalized
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/syntastic'
+let g:syntastic_python_checkers = ['pylint']
+
 Plugin 'wookiehangover/jshint.vim'
+Plugin 'Lokaltog/vim-easymotion'
+let g:EasyMotion_smartcase = 1
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
+
+Plugin 'tpope/vim-commentary'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
 
@@ -26,5 +39,4 @@ set wildmenu                  " Menu completion in command mode on <Tab>
 set wildmode=full             " <Tab> cycles between all matching choices.
 set ruler
 
-let g:syntastic_python_checkers = ['pylint']
 color delek

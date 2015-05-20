@@ -5,4 +5,3 @@ set textwidth=80
 set smarttab
 set smartindent
 set expandtab
-color delek

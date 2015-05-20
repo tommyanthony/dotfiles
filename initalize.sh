@@ -5,4 +5,4 @@ do
     echo $command
     eval $command
 done
-exit 0  
+exit 0

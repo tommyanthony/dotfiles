@@ -6,4 +6,3 @@ set smarttab
 set smartindent
 set expandtab
 set textwidth=79  " lines longer than 79 columns will be broken
-color delek
