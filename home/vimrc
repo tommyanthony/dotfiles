@@ -29,6 +29,7 @@ map  N <Plug>(easymotion-prev)
 
 Plugin 'tpope/vim-commentary'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 
@@ -39,4 +40,4 @@ set wildmenu                  " Menu completion in command mode on <Tab>
 set wildmode=full             " <Tab> cycles between all matching choices.
 set ruler
 
-color delek
+color solarized

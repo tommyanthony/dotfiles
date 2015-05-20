@@ -15,3 +15,4 @@ cd mac/
 
 TODO:
 Doesn't automatically install pylint on Linux.
+Doesn't automatically change color in ~/.oh-my-zsh/lib/theme-and-appearance.zsh

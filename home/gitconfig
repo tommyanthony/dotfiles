@@ -2,3 +2,5 @@
 	autocrlf = input
 [push]
 	default = simple
+[include]
+	path = .gitconfig.user
