@@ -5,9 +5,8 @@ export PYTHONSTARTUP="$HOME/.pythonrc"
 
 alias ..='cd ..'
 alias ...='cd ../..'
-#export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
-export _DOCUMENTS=$HOME/Documents
-export _INTELLIJ_WORKSPACE=$_DOCUMENTS/Intellij\ Workspace
-export _DEVELOPMENT=$_DOCUMENTS/development
-export _NBA=$_DEVELOPMENT/nba
+loc=~/.zsh-aliases
+alias ae='mvim $loc'  # Alias edit
+alias ar='source $loc'# Alias reload
+ar
