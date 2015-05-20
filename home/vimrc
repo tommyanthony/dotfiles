@@ -20,7 +20,7 @@ Plugin 'wookiehangover/jshint.vim'
 call vundle#end()
 
 filetype plugin on                   " try to detect filetypes
-set number                    " Display line numbers
+set relativenumber            " Display relative line numbers
 set title                     " show title in console title bar
 set wildmenu                  " Menu completion in command mode on <Tab>
 set wildmode=full             " <Tab> cycles between all matching choices.
