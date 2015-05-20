@@ -4,4 +4,3 @@ if [ -f ~/.bashrc ]; then
 fi
 
 export PATH=/usr/local/bin:$PATH
-export EDITOR=vim

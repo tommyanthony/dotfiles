@@ -7,6 +7,6 @@ alias ..='cd ..'
 alias ...='cd ../..'
 
 loc=~/.zsh-aliases
-alias ae='mvim $loc'  # Alias edit
-alias ar='source $loc'# Alias reload
+alias ae='mvim $loc'   # Alias edit
+alias ar='source $loc' # Alias reload
 ar
