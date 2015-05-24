@@ -17,7 +17,7 @@ call vundle#begin()
 " is initalized
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/syntastic'
-let g:syntastic_python_checkers = ['pylint']
+let g:syntastic_python_checkers = ['flake8']
 
 Plugin 'wookiehangover/jshint.vim'
 Plugin 'Lokaltog/vim-easymotion'
