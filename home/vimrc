@@ -33,7 +33,7 @@ Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 
-filetype plugin on                   " try to detect filetypes
+filetype plugin indent on     " try to detect filetypes
 set relativenumber            " Display relative line numbers
 set title                     " show title in console title bar
 set wildmenu                  " Menu completion in command mode on <Tab>

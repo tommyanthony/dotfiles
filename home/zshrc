@@ -54,6 +54,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.bash_profile
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 
 # You may need to manually set your language environment
