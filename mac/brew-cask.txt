@@ -7,3 +7,4 @@ spectacle
 the-unarchiver
 flux
 sublime-text
+dropbox
