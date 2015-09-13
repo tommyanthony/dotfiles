@@ -3,4 +3,8 @@ if [ -f ~/.bashrc ]; then
         . ~/.bashrc
 fi
 
+if [ -f ~/.custom_bashrc ]; then
+        . ~/.custom_bashrc
+fi
+
 export PATH=/usr/local/bin:$PATH

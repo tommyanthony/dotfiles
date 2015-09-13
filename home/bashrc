@@ -6,6 +6,7 @@ export JAVA_HOME=`/usr/libexec/java_home -v '1.8*'`
 
 alias ..='cd ..'
 alias ...='cd ../..'
+alias ....='cd ../../..'
 
 loc=~/.zsh-aliases
 alias ae='mvim $loc'   # Alias edit
