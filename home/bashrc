@@ -3,6 +3,9 @@ gpip(){
 }
 export PYTHONSTARTUP="$HOME/.pythonrc"
 export JAVA_HOME=`/usr/libexec/java_home -v '1.8*'`
+java_sev() {
+    export JAVA_HOME=`/usr/libexec/java_home -v '1.7*'`
+}
 
 alias ..='cd ..'
 alias ...='cd ../..'
