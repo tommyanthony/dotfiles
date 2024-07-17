@@ -8,6 +8,3 @@ if [ -f ~/.custom_bashrc ]; then
 fi
 
 export PATH=/usr/local/bin:$PATH
-
-# added by Anaconda3 4.2.0 installer
-export PATH="/Users/Anthony/anaconda/bin:$PATH"

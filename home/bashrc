@@ -1,11 +1,4 @@
-gpip(){
-   PIP_REQUIRE_VIRTUALENV="" pip "$@"
-}
 export PYTHONSTARTUP="$HOME/.pythonrc"
-export JAVA_HOME=`/usr/libexec/java_home -v '1.8*'`
-java_sev() {
-    export JAVA_HOME=`/usr/libexec/java_home -v '1.7*'`
-}
 
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -15,3 +8,7 @@ loc=~/.zsh-aliases
 alias ae='mvim $loc'   # Alias edit
 alias ar='source $loc' # Alias reload
 ar
+
+set startup-with-shell off
+set -o vi
+
