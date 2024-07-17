@@ -4,11 +4,12 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
-loc=~/.zsh-aliases
+loc=~/.local-aliases
 alias ae='mvim $loc'   # Alias edit
 alias ar='source $loc' # Alias reload
 ar
 
-set startup-with-shell off
-set -o vi
+alias activate="source ./venv/bin/activate"
+alias mk_venv="python3 -m venv venv"
 
+set -o vi
