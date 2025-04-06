@@ -165,6 +165,9 @@
 (after! transient (transient-bind-q-to-quit))
 (setq doom-modeline-buffer-file-name-style 'file-name)
 
+;; Load .bashrc with eshell.
+(setq shell-command-switch "-ic")
+
 (after! evil (map!
               (:localleader
                :nv "gg" #'xref-find-definitions

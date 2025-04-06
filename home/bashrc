@@ -7,9 +7,13 @@ alias ....='cd ../../..'
 loc=~/.local-aliases
 alias ae='mvim $loc'   # Alias edit
 alias ar='source $loc' # Alias reload
-ar
+if [ -f "$loc" ] ; then
+  ar
+fi
 
 alias activate="source ./venv/bin/activate"
 alias mk_venv="python3 -m venv venv"
 
 set -o vi
+
+export PATH=~/.config/emacs/bin:$PATH
