@@ -7,39 +7,6 @@ set nocompatible        " Use Vim defaults instead of 100% vi compatibility
 filetype off
 syntax on
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
-" Have associated let and set statements for a plugin directly after the plugin
-" is initalized
-Plugin 'gmarik/Vundle.vim'
-"Plugin 'scrooloose/syntastic'
-" let g:syntastic_python_checkers = ['flake8']
-
-Plugin 'wookiehangover/jshint.vim'
-Plugin 'Lokaltog/vim-easymotion'
-let g:EasyMotion_smartcase = 1
-map  / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
-map  n <Plug>(easymotion-next)
-map  N <Plug>(easymotion-prev)
-
-Plugin 'tpope/vim-commentary'
-Plugin 'flazz/vim-colorschemes'
-Plugin 'altercation/vim-colors-solarized'
-
-"Plugin 'google/vim-maktaba'
-"Plugin 'google/vim-codefmt'
-" Also add Glaive, which is used to configure codefmt's maktaba flags. See
-" `:help :Glaive` for usage.
-"Plugin 'google/vim-glaive'
-
-call vundle#end()
-"call glaive#Install()
-
 filetype plugin indent on     " try to detect filetypes
 set relativenumber            " Display relative line numbers
 set number                    " Show line number for our current line
@@ -66,5 +33,3 @@ set expandtab
 "  autocmd FileType rust AutoFormatBuffer rustfmt
 "  autocmd FileType vue AutoFormatBuffer prettier
 "augroup END
-
-color solarized
