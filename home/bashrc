@@ -17,3 +17,5 @@ alias mk_venv="python3 -m venv venv"
 set -o vi
 
 export PATH=~/.config/emacs/bin:$PATH
+export EDITOR=emacs
+alias grep=rg

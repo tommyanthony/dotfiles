@@ -8,9 +8,14 @@
   (interactive)
   (pytest-accept-diffs-with-fn 'python-pytest))
 
-(defun pytest-accept-diffs-file-dwim ()
+;; (defun pytest-accept-diffs-file-dwim ()
+;;   (interactive)
+;;   (pytest-accept-diffs-with-fn 'python-pytest-file-dwim))
+
+(defun pytest-accept-diffs-file ()
   (interactive)
-  (pytest-accept-diffs-with-fn 'python-pytest-file-dwim))
+  (pytest-accept-diffs-with-fn 'python-pytest-file))
+
 
 (defun pytest-accept-diffs-repeat ()
   (interactive)
@@ -18,8 +23,10 @@
 
 (map! :after python :map python-mode-map
       (:localleader
-       :nv "tf" 'python-pytest-file-dwim
-       :nv "tF" 'pytest-accept-diffs-file-dwim
+       ;; :nv "tf" 'python-pytest-file-dwim
+       ;; :nv "tF" 'pytest-accept-diffs-file-dwim
+       :nv "tf" 'python-pytest-file
+       :nv "tF" 'pytest-accept-diffs-file
        :nv "ta" 'python-pytest
        :nv "tA" 'pytest-accept-all-diffs
        :nv "tr" 'python-pytest-repeat
